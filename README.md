@@ -12,8 +12,11 @@
 ## Punto 2
 
 > Identifique 2 patrones de diseño que puedan aplicarse al caso de estudio, especificando por cada uno:
+>
 > a. Nombre del Patrón
+>
 > b. Tipo de patrón (creacional, estructural o de comportamiento).
+>
 > c. Justificación de la decisión.
 
 ### Patron 1
