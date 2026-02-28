@@ -38,3 +38,24 @@ permite centralizar la logica de creacion de los eventos facilitandpo la extensi
 **Justificacion**: se necesita validar reglas de negocio muy diferentes en los diferentes tipos de eventos, por ejemplo, la _conferencia_ tiene una
 duracion max de 180 min y solo permite a profes y estudiantes, los _talleres_ tienen una duracion de 240 min y solo pueden ser profes o admins.
 Al aplicar Strategy se puede definir una interfaz de y crear una estrategia concreta para cada tipo de evento. 
+
+---
+
+## Punto 3
+
+> Identifique 5 requerimientos del sistema y clasifíquelos en funcionales (3) y no funcionales (2). Garantiza que al menos un requerimiento funcional seleccionado utilice un patrón identificado. (Añadirlo al README.md)
+
+### RF-1 (Funcional)
+El sistema debe permitir la creacion de eventos por parte de _RRHH_ (**Factory Method**)
+
+### RF-2 (Funcional)
+El sistema debe validar los tiempos maximos asociados con los tipos de eventos (**Strategy**)
+
+### RF-3 (Funcional)
+El sistema debe proveer una manera de informar (notificar) tanto a _RRHH_ como a el _sistema academico_
+
+### RF-4 (No Funcional)
+La interfaz debe ser responsive
+
+### RF-5 (No Funcional)
+La interfaz debe tener colores pastel
