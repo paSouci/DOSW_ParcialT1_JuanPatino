@@ -66,9 +66,10 @@ La interfaz debe tener colores pastel
 
 ## Punto 4
 
-### Historia de uso para RRHHs
+### Historia de uso para RRHHs (factory method)
 
 ![rrhh](docs/images/rrhh-use.png)
-![estudiantes](docs/images/estu-use.png)
 
+### Historia de uso para estudiantes
+![estudiantes](docs/images/estu-use.png)
 
