@@ -65,6 +65,7 @@ La interfaz debe tener colores pastel
 ---
 
 ## Punto 4
+> Del listado anterior, seleccione los 2 requerimientos funcionales más importantes del sistema y desarrolle un diagrama de casos de uso con su respectiva historia de usuario. Garantiza que al menos un requerimiento funcional seleccionado utilice un patrón identificado. (Añadirlo al README.md)
 
 ### Historia de uso para RRHHs (factory method)
 
@@ -73,3 +74,25 @@ La interfaz debe tener colores pastel
 ### Historia de uso para estudiantes
 ![estudiantes](docs/images/estu-use.png)
 
+---
+
+## Punto 5
+> Especifique los 2 requerimientos funcionales seleccionados en el punto anterior (Ver plantilla). (Añadir los documentos al repositorio, en la carpeta de requerimientos).
+
+**NOTA**: Esta en `docs/requirements/requirements.md`
+
+---
+
+## Punto 6
+> Seleccione un requerimiento asociado al patrón y realice la descomposición de tareas asociadas: Épica - Historia de Usuario - Al menos 3 tareas.  (Añadirlo al README.md)
+
+**Epica**: Gestion automatizada de reglas de negocio para los eventos
+**Historia de usuario**: Como sistema EventSync quiero validar los datos de creacion contra las reglas especificas de cada evento (tiempo maximo, quien las crea etc)
+
+**Tareas Asociadas:**
+
+1. **Tarea 1 - Implementacion de la Interfaz Strategy:** Definir la interfaz `ValidadorEvento` con un metodo `validar(Evento datos)` que sera implementado de forma especifica para cada tipo de evento
+
+2. **Tarea 2 - Desarrollo de Logica de Validacion por Evento:** Programar las restricciones de acceso por actor: validar que solo Profesores o Admins creen Eventos
+
+3. **Tarea 3 - Validacion de Tiempos Maximos y Disponibilidad:** Codificar la logica que compare el tiempo solicitado vs. los límites permitidos
