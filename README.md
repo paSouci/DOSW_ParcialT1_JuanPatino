@@ -96,3 +96,17 @@ La interfaz debe tener colores pastel
 2. **Tarea 2 - Desarrollo de Logica de Validacion por Evento:** Programar las restricciones de acceso por actor: validar que solo Profesores o Admins creen Eventos
 
 3. **Tarea 3 - Validacion de Tiempos Maximos y Disponibilidad:** Codificar la logica que compare el tiempo solicitado vs. los límites permitidos
+
+---
+
+## Punto 7
+> Realice un diagrama de clases que permita entender su solución.  Mencione, ¿cuáles principios SOLID está aplicando? ¿Y por qué?
+
+---
+
+## Punto 8
+> Desarrolle en código su solución; en el método main plantee una entrada y salida que valide el correcto funcionamiento
+
+![a](docs/images/a.png)
+![b](docs/images/b.png)
+
