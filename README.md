@@ -47,19 +47,19 @@ Al aplicar Strategy se puede definir una interfaz de y crear una estrategia conc
 
 > Identifique 5 requerimientos del sistema y clasifíquelos en funcionales (3) y no funcionales (2). Garantiza que al menos un requerimiento funcional seleccionado utilice un patrón identificado. (Añadirlo al README.md)
 
-### RF-1 (Funcional)
+### RF-1
 El sistema debe permitir la creacion de eventos por parte de _RRHH_ (**Factory Method**)
 
-### RF-2 (Funcional)
+### RF-2
 El sistema debe validar los tiempos maximos asociados con los tipos de eventos (**Strategy**)
 
-### RF-3 (Funcional)
+### RF-3
 El sistema debe proveer una manera de informar (notificar) tanto a _RRHH_ como a el _sistema academico_
 
-### RF-4 (No Funcional)
+### RNF-4
 La interfaz debe ser responsive
 
-### RF-5 (No Funcional)
+### RNF-5
 La interfaz debe tener colores pastel
 
 ---
