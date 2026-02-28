@@ -5,7 +5,7 @@
 ## Punto 1
 >  Realice el diagrama de contexto con las generalidades de su sistema.  (Añadirlo al README.md)
 
-![diagrama de contexto](docs/images/d-contexto.png)
+![diagrama de contexto](docs/images/contexto.png)
 
 nota: Por sistema academico me refiero a los estudiantes nada mas asi como decia en el pdf
 
