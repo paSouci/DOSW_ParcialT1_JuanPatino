@@ -54,7 +54,7 @@ El sistema debe permitir la creacion de eventos por parte de _RRHH_ (**Factory M
 El sistema debe validar los tiempos maximos asociados con los tipos de eventos (**Strategy**)
 
 ### RF-3
-El sistema debe proveer una manera de informar (notificar) tanto a _RRHH_ como a el _sistema academico_
+El sistema debe permitir la inscripcion a eventos por parte de _estudiantes_
 
 ### RNF-4
 La interfaz debe ser responsive
