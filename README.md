@@ -61,3 +61,14 @@ La interfaz debe ser responsive
 
 ### RF-5 (No Funcional)
 La interfaz debe tener colores pastel
+
+---
+
+## Punto 4
+
+### Historia de uso para RRHHs
+
+![rrhh](docs/images/rrhh-use.png)
+![estudiantes](docs/images/estu-use.png)
+
+
